@@ -1,33 +1,90 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.Center {
+  /* Centers component */
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+.showborder {
+  /* Showborder */
+  border: 3px #ccc solid;
+}
+.container {
+  /* conatiner: used in myform, searchbycity, searchbycountry, Home */
+  display: flex;
+  justify-content: center;
 }
 
-.App-link {
-  color: #61dafb;
+.container2 {
+  /* container2: used in searchbycityresaults */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 2px #ccc solid;
+  width: 50%;
+  height: 20vh;
+}
+.population {
+  /* population fontsize */
+  font-size: 30px;
+}
+.Title1 {
+  /* title shown in Homepage */
+  display: flex;
+  flex: 1;
+  height: 40vh;
+  flex-direction: row;
+  align-items: CENTER;
+}
+.Title2 {
+  /* Title shown in NoMatch, Searchbycity, Searchbycountry, Searchbycityresaults, Searchbycountryresaults */
+  display: flex;
+  flex: 1;
+  height: 25vh;
+  flex-direction: row;
+  align-items: flex-end;
+}
+.Subtitle {
+  /* Subtitle used in Searchbycountry, Searchbycity */
+  display: flex;
+  flex: 1;
+  height: 15vh;
+  flex-direction: row;
+  align-items: center;
+}
+.input {
+  /* input used in Myform */
+  box-sizing: border-box;
+  width: 150%;
+  padding: 1em;
+  border: 0.15em solid #808080;
+  border-radius: 0em;
+  text-align: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.box {
+  /* box: used in Homepage */
+  flex-basis: 20%;
+  height: 15vh;
+  margin: 0rem 0.5rem;
 }
+.box2 {
+  /* Box2 used in Searchbycountry */
+  width: 40%;
+  flex-basis: 20%;
+  height: 15vh;
+  margin: 0rem 0.5rem;
+}
+.Butt {
+  /* button to fill upp the whole div */
+  width: 100%;
+  height: 100%;
+}
+
+/* Remove comments to show all divborders */
+
+/* .Center div {
+  border: 1px #ccc solid;
+  padding: 10px;
+} */
